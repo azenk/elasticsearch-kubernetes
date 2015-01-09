@@ -1,0 +1,11 @@
+cloud:
+  k8s:
+    selector: ${SELECTOR}
+discovery:
+  type: io.fabric8.elasticsearch.discovery.k8s.K8sDiscoveryModule
+
+path:
+  data: /data/data
+  logs: /data/log
+  plugins: /elasticsearch/plugins
+  work: /data/work
